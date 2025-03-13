@@ -22,7 +22,6 @@ The dashboard leverages Big Data analytics to identify patterns and trends in re
 
 ✔️ User-friendly interface for quick insights and reporting 
 
-
 ## 📂 Repository Structure  
 ```
 📦 SL-Immunization-Tracker  
@@ -35,11 +34,10 @@ The dashboard leverages Big Data analytics to identify patterns and trends in re
 ## 🛠️ Installation & Setup
 
 1️⃣ Prerequisites
-Ensure you have the following installed before proceeding:
-
-Power BI Desktop (https://apps.microsoft.com/detail/9nblgggzlxn1?hl=en-US&gl=LK)
-Microsoft Excel (https://www.microsoft.com/en-us/microsoft-365/excel)
-Data File: (Ensure the required .xlsx file is available in the /data folder of this repository.) 
+🔹Ensure you have the following installed before proceeding:
+🔹Power BI Desktop (https://apps.microsoft.com/detail/9nblgggzlxn1?hl=en-US&gl=LK)
+🔹Microsoft Excel (https://www.microsoft.com/en-us/microsoft-365/excel)
+🔹Data File: (Ensure the required .xlsx file is available in the /data folder of this repository.) 
 
 ## Note: # The full dataset is not included in this repository due to the sensitive nature of medical data. Only a sample dataset is provided for demonstration purposes.
 
@@ -48,46 +46,38 @@ Data File: (Ensure the required .xlsx file is available in the /data folder of t
 ![image](https://github.com/user-attachments/assets/0b98b5da-71d9-41af-8b5e-9cd4b8232c90)
 
 2️⃣ Installing Power BI Desktop For Windows:
-
-Download Power BI Desktop from the official Microsoft website:
+🔹Download Power BI Desktop from the official Microsoft website:
 👉https://powerbi.microsoft.com/en-us/downloads/
-Open the downloaded .exe file and follow the installation wizard.
-Once installed, launch Power BI Desktop.
+🔹Open the downloaded .exe file and follow the installation wizard.
+🔹Once installed, launch Power BI Desktop.
 
 3️⃣ Linking an Excel File in Power BI Follow these steps to connect an Excel file (.xlsx) to Power BI:
-
 Step 1: Open Power BI Desktop
-Launch Power BI Desktop from the Start Menu.
-
+🔹Launch Power BI Desktop from the Start Menu.
 Step 2: Import Excel Data
-Click on Home → Get Data → Excel.
-Browse to the data folder in the cloned repository and select the Excel file (data/your-data.xlsx).
-Click Open.
-
+🔹Click on Home → Get Data → Excel.
+🔹Browse to the data folder in the cloned repository and select the Excel file (data/your-data.xlsx).
+🔹Click Open.
 Step 3: Load Data into Power BI
-A preview of the Excel sheets will appear. Select the relevant worksheet(s).
-Click Load to import data directly OR Transform Data to open the Power Query Editor for modifications.
-
+🔹A preview of the Excel sheets will appear. Select the relevant worksheet(s).
+🔹Click Load to import data directly OR Transform Data to open the Power Query Editor for modifications.
 Step 4: Verify the Connection
-Go to the Data View (left sidebar) and confirm that the imported data appears correctly.
+🔹Go to the Data View (left sidebar) and confirm that the imported data appears correctly.
 
 4️⃣ Refreshing Data in Power BI If the Excel file is updated, refresh the dataset in Power BI:
-
-Open Power BI Desktop.
-Click Refresh from the Home tab.
+🔹Open Power BI Desktop.
+🔹Click Refresh from the Home tab.
 
 5️⃣ Publishing the Dashboard To share the dashboard online:
-
-Click Publish in Power BI Desktop.
-Sign in to Power BI Service (powerbi.com).
-Select a workspace and click Publish.
-The dashboard will be available online for stakeholders to view.
+🔹lick Publish in Power BI Desktop.
+🔹Sign in to Power BI Service (powerbi.com).
+🔹Select a workspace and click Publish.
+🔹The dashboard will be available online for stakeholders to view.
 
 ## 🔗 Data Source Configuration  
 - **Local Files**: Ensure `data/` contains necessary `.csv` or `.xlsx` files.  
 - **Database Connections**: Update credentials in Power BI **Transform Data** → **Data Source Settings**.  
-- **API Integration**: Modify `scripts/api_config.json` for API key setup.  
-
+  
 ## 📝 Usage Instructions  
 1. **Filters & Slicers**: Customize views using slicers on the dashboard.  
 2. **Drill-through & Drill-down**: Click on visuals for deeper analysis.  
@@ -161,11 +151,10 @@ mnjk7n![image](https://github.com/user-attachments/assets/016d24ff-ba19-496d-b22
 
 ## 🛠️ Technical Details  
 - **Power Query (M Language)**: Used for data transformation, cleaning, and reshaping of records before loading into the data model. 
-- **DAX Measures**: Custom calculations for key metrics including:
-1. Severity counts and distributions
-2. Age averages by demographic groups
-3. Adverse event percentages
-4. Outcome analysis.
+🔹 Severity counts and distributions
+🔹 Age averages by demographic groups
+🔹 Adverse event percentages
+🔹 Outcome analysis.
 - **Geospatial Integrations**: Implemented location mapping using TomTom and Microsoft map services with OpenStreetMap data.  
 - **Filtering Logic**:  Cross-filtering implemented between visualizations for interactive analysis by vaccine type, year, severity, and demographic factors.
 
