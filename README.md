@@ -3,10 +3,10 @@ Power BI is a powerful business intelligence and data visualization tool by Micr
 
 # 📈 Sri Lankan Immunization Tracker - Power BI Dashboard 📉
 
-[Power BI Dashboard]
+# Power BI Dashboard:
 [SL Immunization_Tracker.pdf](https://github.com/user-attachments/files/19227676/SL.Immunization_Tracker.pdf)
 
-Demo link 
+## Demo link :
 
 ## 📖 Overview  
 SL Immunization Tracker is an interactive Power BI dashboard designed to visualize and monitor adverse events following immunization (AEFI) in Sri Lanka. It provides real-time insights into vaccine-related safety concerns, enabling medical professionals, policymakers, and researchers to make informed decisions.
