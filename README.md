@@ -3,7 +3,7 @@ This repository showcases a variety of designs and use cases, highlighting power
 
 # 📊 SL Immunization Tracker - Power BI Dashboard  
 
-![Power BI Dashboard](images/dashboard-preview.png)  [SL Immunization_Tracker.pdf](https://github.com/user-attachments/files/19227676/SL.Immunization_Tracker.pdf)
+![Power BI Dashboard][SL Immunization_Tracker.pdf](https://github.com/user-attachments/files/19227676/SL.Immunization_Tracker.pdf)
 
 
 ## 📖 Overview  
