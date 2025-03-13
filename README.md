@@ -173,6 +173,7 @@ mnjk7n![image](https://github.com/user-attachments/assets/016d24ff-ba19-496d-b22
 
 ## 🛠️ Technical Details  
 - **Power Query (M Language)**: Used for data transformation, cleaning, and reshaping of records before loading into the data model. 
+
 🔹 Severity counts and distributions
 
 🔹 Age averages by demographic groups
