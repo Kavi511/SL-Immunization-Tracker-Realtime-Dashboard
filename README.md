@@ -3,7 +3,8 @@ This repository showcases a variety of designs and use cases, highlighting power
 
 # 📊 SL Immunization Tracker - Power BI Dashboard  
 
-![Power BI Dashboard](images/dashboard-preview.png)  
+![Power BI Dashboard](images/dashboard-preview.png)  [SL Immunization_Tracker.pdf](https://github.com/user-attachments/files/19227676/SL.Immunization_Tracker.pdf)
+
 
 ## 📖 Overview  
 [Project Name] is an interactive Power BI dashboard designed to visualize [briefly describe the purpose]. It provides insights into [mention key focus areas] using real-time data analysis and interactive reports.  
