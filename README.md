@@ -15,10 +15,15 @@ The dashboard leverages Big Data analytics to identify patterns and trends in re
 
 ## 🚀 Features  
 ✔️ Real-time monitoring of vaccine-related adverse events
+
 ✔️ Interactive visualizations for trend analysis and pattern recognition
+
 ✔️ Data-driven decision-making for healthcare professionals
+
 ✔️ Integration of primary & secondary data sources for comprehensive analysis
+
 ✔️ User-friendly interface for quick insights and reporting 
+
 
 ## 📂 Repository Structure  
 ```
