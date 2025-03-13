@@ -164,11 +164,23 @@ Create a data dictionary explaining fields like:
     * Rabies
 
 ## 📷 Screenshots & Visuals  
-![Screenshot 2025-03-13 181622](https://github.com/user-attachments/assets/a26f7e12-6276-42ab-b055-0009628081c0)
-![Screenshot 2025-01-03 170542](https://github.com/user-attachments/assets/0fb79a65-eeef-444c-ae1c-a8b21c9d5c74)
-![Screenshot 2025-01-03 171449](https://github.com/user-attachments/assets/6c55dd9d-e7cf-4950-b841-8cdd570e00b8)
-![Screenshot 2025-01-03 170756](https://github.com/user-attachments/assets/3f50dc26-e4bb-4dff-8857-7d37a01a442f)
-![Screenshot 2025-01-03 170859](https://github.com/user-attachments/assets/eb08a610-be97-46d6-b366-bdda554e5a31)
+### **Screenshots & Visuals**  
+
+**Figure 1: Main Dashboard View**  
+![Screenshot 2025-03-13 181622](https://github.com/user-attachments/assets/a26f7e12-6276-42ab-b055-0009628081c0)  
+
+**Figure 2: Severity by Vaccine Type Chart**  
+![Screenshot 2025-01-03 170542](https://github.com/user-attachments/assets/0fb79a65-eeef-444c-ae1c-a8b21c9d5c74)  
+
+**Figure 3: Age Distribution by Gender**  
+![Screenshot 2025-01-03 171449](https://github.com/user-attachments/assets/6c55dd9d-e7cf-4950-b841-8cdd570e00b8)  
+
+**Figure 4: Geographic Distribution of Adverse Events**  
+![Screenshot 2025-01-03 170756](https://github.com/user-attachments/assets/3f50dc26-e4bb-4dff-8857-7d37a01a442f)  
+
+**Figure 5: Detailed Data Table View**  
+![Screenshot 2025-01-03 170859](https://github.com/user-attachments/assets/eb08a610-be97-46d6-b366-bdda554e5a31)  
+
 
 ## 🛠️ Technical Details  
 1️⃣ **Power Query (M Language)**: Used for data transformation, cleaning, and reshaping of records before loading into the data model. 
