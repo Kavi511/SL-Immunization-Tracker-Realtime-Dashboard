@@ -1,7 +1,7 @@
 Demo link 
 
-# Power-BI-Dashboards
-A variety of designs and use cases, highlighting powerful data visualizations and actionable insights. Perfect for professionals and enthusiasts looking to explore, learn, and implement effective dashboard solutions.
+# 📊 What is Power BI?
+Power BI is a powerful business intelligence and data visualization tool by Microsoft that allows users to connect, analyze, and visualize data from various sources. It provides interactive dashboards, real-time insights, and advanced analytics to help businesses and individuals make data-driven decisions. With its user-friendly interface and powerful features like DAX calculations, Power Query transformations, and AI-driven analytics, Power BI is the go-to tool for professionals looking to turn raw data into meaningful insights..
 
 # 📈 Sri Lankan Immunization Tracker - Power BI Dashboard 📉
 
