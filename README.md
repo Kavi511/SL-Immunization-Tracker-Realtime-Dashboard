@@ -37,9 +37,11 @@ The dashboard leverages Big Data analytics to identify patterns and trends in re
 1️⃣ Prerequisites
 Ensure you have the following installed before proceeding:
 
-Power BI Desktop (Download Here)
-Microsoft Excel (Required if using .xlsx data sources)
-Data File (Ensure the required .xlsx file is available in the /data folder of this repository)
+Power BI Desktop (https://apps.microsoft.com/detail/9nblgggzlxn1?hl=en-US&gl=LK)
+Microsoft Excel (https://www.microsoft.com/en-us/microsoft-365/excel)
+Data File: (Ensure the required .xlsx file is available in the /data folder of this repository.) 
+
+## Note: # The full dataset is not included in this repository due to the sensitive nature of medical data. Only a sample dataset is provided for demonstration purposes.
 
 2️⃣ Installing Power BI Desktop For Windows:
 
@@ -146,7 +148,7 @@ Create a data dictionary explaining fields like:
     * Rabies
 
 ## 📷 Screenshots & Visuals  
-![Dashboard Screenshot] 
+[Dashboard Screenshot] 
 mnjk7n![image](https://github.com/user-attachments/assets/016d24ff-ba19-496d-b220-367c27ab0062)
 ![Screenshot 2025-01-03 170542](https://github.com/user-attachments/assets/0fb79a65-eeef-444c-ae1c-a8b21c9d5c74)
 ![Screenshot 2025-01-03 171449](https://github.com/user-attachments/assets/6c55dd9d-e7cf-4950-b841-8cdd570e00b8)
