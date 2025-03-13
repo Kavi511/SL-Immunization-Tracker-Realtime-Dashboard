@@ -172,7 +172,7 @@ mnjk7n![image](https://github.com/user-attachments/assets/016d24ff-ba19-496d-b22
 ![Screenshot 2025-01-03 170859](https://github.com/user-attachments/assets/eb08a610-be97-46d6-b366-bdda554e5a31)
 
 ## 🛠️ Technical Details  
-- **Power Query (M Language)**: Used for data transformation, cleaning, and reshaping of records before loading into the data model. 
+1️⃣ **Power Query (M Language)**: Used for data transformation, cleaning, and reshaping of records before loading into the data model. 
 
 🔹 Severity counts and distributions
 
@@ -182,8 +182,8 @@ mnjk7n![image](https://github.com/user-attachments/assets/016d24ff-ba19-496d-b22
 
 🔹 Outcome analysis.
 
-- **Geospatial Integrations**: Implemented location mapping using TomTom and Microsoft map services with OpenStreetMap data.  
-- **Filtering Logic**:  Cross-filtering implemented between visualizations for interactive analysis by vaccine type, year, severity, and demographic factors.
+2️⃣ **Geospatial Integrations**: Implemented location mapping using TomTom and Microsoft map services with OpenStreetMap data.  
+3️⃣ **Filtering Logic**:  Cross-filtering implemented between visualizations for interactive analysis by vaccine type, year, severity, and demographic factors.
 
 ## 🔥 Future Improvements  
 - [ ] Integrate machine learning models to predict adverse event risks
