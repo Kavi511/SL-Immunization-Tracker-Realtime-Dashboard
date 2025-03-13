@@ -1,0 +1,16 @@
+```
+    # Ignore specific Excel files
+    Epidemology unit and MOH raw data (2019 - 2024).xlsx
+    _Primary research raw data  (Responses).xlsx
+
+    # Ignore all Excel files in the repository (if you want to ignore all of them)
+    *.xlsx
+    *.xls
+
+    # Ignore a specific folder containing Excel files (if applicable)
+    data/  # This will ignore the entire "data" folder
+
+    # Example: Ignore temporary Excel files (if any)
+    ~$*.xlsx
+    ```
+
