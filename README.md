@@ -7,7 +7,7 @@ SL Immunization Tracker is an interactive Power BI dashboard designed to visuali
 
 The dashboard leverages Big Data analytics to identify patterns and trends in reported adverse events, ensuring proactive responses to potential safety issues. It aims to bridge the gap between vaccination data and healthcare professionals, improving vaccine safety surveillance and public trust in the National Vaccination Programme of Sri Lanka.
 
-## 🚀 Features  
+## 🚀 Features 
 ✔️ Real-time monitoring of vaccine-related adverse events
 
 ✔️ Interactive visualizations for trend analysis and pattern recognition
@@ -28,7 +28,6 @@ The dashboard leverages Big Data analytics to identify patterns and trends in re
 ```
 
 ## 🛠️ Installation & Setup
-
 1️⃣ Prerequisites
 
 🔹Ensure you have the following installed before proceeding:
@@ -41,9 +40,12 @@ The dashboard leverages Big Data analytics to identify patterns and trends in re
 
 ## Note: # The full dataset is not included in this repository due to the sensitive nature of medical data. Only a sample dataset is provided for demonstration purposes.
 
-## 📷 Screenshots of sample datasets 
-![image](https://github.com/user-attachments/assets/73678df9-0169-48a3-9d4a-040b8ea98890)
-![image](https://github.com/user-attachments/assets/0b98b5da-71d9-41af-8b5e-9cd4b8232c90)
+## 📷 Screenshots of Sample Datasets  
+**Figure 6: Epidemiology Unit and MOH Raw Data (2019 - 2024)**  
+![image](https://github.com/user-attachments/assets/73678df9-0169-48a3-9d4a-040b8ea98890)  
+
+**Figure 7: Primary Research Raw Data (Responses)**  
+![image](https://github.com/user-attachments/assets/0b98b5da-71d9-41af-8b5e-9cd4b8232c90)  
 
 2️⃣ Installing Power BI Desktop For Windows:
 
