@@ -46,32 +46,53 @@ The dashboard leverages Big Data analytics to identify patterns and trends in re
 ![image](https://github.com/user-attachments/assets/0b98b5da-71d9-41af-8b5e-9cd4b8232c90)
 
 2️⃣ Installing Power BI Desktop For Windows:
+
 🔹Download Power BI Desktop from the official Microsoft website:
+
 👉https://powerbi.microsoft.com/en-us/downloads/
+
 🔹Open the downloaded .exe file and follow the installation wizard.
+
 🔹Once installed, launch Power BI Desktop.
 
 3️⃣ Linking an Excel File in Power BI Follow these steps to connect an Excel file (.xlsx) to Power BI:
+
 Step 1: Open Power BI Desktop
+
 🔹Launch Power BI Desktop from the Start Menu.
+
 Step 2: Import Excel Data
+
 🔹Click on Home → Get Data → Excel.
+
 🔹Browse to the data folder in the cloned repository and select the Excel file (data/your-data.xlsx).
+
 🔹Click Open.
+
 Step 3: Load Data into Power BI
+
 🔹A preview of the Excel sheets will appear. Select the relevant worksheet(s).
+
 🔹Click Load to import data directly OR Transform Data to open the Power Query Editor for modifications.
+
 Step 4: Verify the Connection
+
 🔹Go to the Data View (left sidebar) and confirm that the imported data appears correctly.
 
 4️⃣ Refreshing Data in Power BI If the Excel file is updated, refresh the dataset in Power BI:
+
 🔹Open Power BI Desktop.
+
 🔹Click Refresh from the Home tab.
 
 5️⃣ Publishing the Dashboard To share the dashboard online:
+
 🔹lick Publish in Power BI Desktop.
+
 🔹Sign in to Power BI Service (powerbi.com).
+
 🔹Select a workspace and click Publish.
+
 🔹The dashboard will be available online for stakeholders to view.
 
 ## 🔗 Data Source Configuration  
