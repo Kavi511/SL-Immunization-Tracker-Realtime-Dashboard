@@ -109,60 +109,85 @@ Step 4: Verify the Connection
    
 ## 📊 Data Dictionary
 Create a data dictionary explaining fields like: 
- 
-**1. Severity (Low, Mid, High)**
+ ## 📊 Data Dictionary  
 
-* **Description:** Categorical classification of the seriousness of the reported adverse event following vaccination.
-* **Data Type:** Categorical (String)
-* **Possible Values:**
-    * **Low:** Minor adverse events that typically resolve quickly without significant intervention. Examples may include mild pain, redness, or swelling at the injection site.
-    * **Mid:** Moderate adverse events that may require medical attention or cause some discomfort or temporary disruption to daily activities. Examples may include fever, rash, or more pronounced local reactions.
-    * **High:** Severe adverse events that may require hospitalization, lead to long-term complications, or be life-threatening. Examples may include anaphylaxis, seizures, or severe neurological reactions.
-      
-**2. Outcome Categories**
+### **1️⃣ Data Collection**  
 
-* **Description:** Describes the current status or resolution of the reported adverse event.
-* **Data Type:** Categorical (String)
-* **Possible Values:** 
-  * **Resolved:** The adverse event has subsided and the individual has recovered.
-  * **Ongoing:** The adverse event is still present and being monitored.
-  * **Recovering:** The adverse event is improving but not fully resolved.
-  * **Fatal:** The adverse event resulted in death.
-  * **Unknown:** The outcome of the adverse event is not yet known.
+#### **• Primary Data Collection:**  
+- Surveys and questionnaires were distributed to healthcare professionals to identify their requirements for monitoring vaccine safety.  
+- Real-time data was collected from hospitals, vaccination centers, and healthcare institutions regarding adverse events following immunizations.  
 
-**3. Adverse Event Types**
+#### **• Secondary Data Collection:**  
+- Utilized existing databases such as local health ministry records and medical research on immunization (primarily from the Epidemiology Unit in Sri Lanka).  
+- Reviewed published studies and global case studies to understand existing systems and the types of data they use.  
+- Ensured compliance with **HIPAA** (Health Insurance Portability and Accountability Act) regulations during secondary data collection to maintain patient confidentiality.  
 
-* **Description:** Specific descriptions of the reported adverse reactions following vaccination.
-* **Data Type:** Categorical (String)
-* **Possible Values:** 
-    * Pain at injection
-    * High fever (>40°C)
-    * Severe local reaction
-    * Anaphylaxis
-    * Other neurological... (further detail needed for complete understanding)
-    * Severe allergic reaction
-    * Seizures
-    * Acute paralysis
+#### **• Challenges in Data Collection:**  
+- Ensuring data privacy and compliance with regulations such as HIPAA or local equivalents.  
+- Handling incomplete, inconsistent, or duplicate data from various sources.  
+- Integrating data from multiple formats and platforms for analysis.  
 
-**4. Vaccine Types**
+### **2️⃣ Data Processing**  
 
-* **Description:** The name of the vaccine administered.
-* **Data Type:** Categorical (String)
-* **Possible Values:** (Based on the image)
-    * DTP (Diphtheria, Tetanus, Pertussis)
-    * Hepatitis A
-    * Influenza
-    * Japanese Encephalitis
-    * Covid-19
-    * MMR (Measles, Mumps, Rubella)
-    * Polio
-    * Pneumococcal
-    * Meningococcal
-    * Rotavirus
-    * Typhoid
-    * Varicella (Chickenpox)
-    * Yellow fever
-    * Rabies
+#### **• Data Integration:**  
+- Used **ETL (Extract, Transform, Load)** tools to consolidate data from various sources into a centralized database.  
+- Ensured compatibility of data formats through preprocessing.  
+- Standardized data formats (e.g., date formats, numerical ranges).  
+
+#### **• Data Transformation:**  
+- Converted raw data into structured formats suitable for analysis (e.g., tables, graphs, JSON files for web rendering).  
+
+### **3️⃣ Key Data Fields**  
+
+#### **Severity**  
+- **Description:** Categorical classification of the seriousness of the reported adverse event following vaccination.  
+- **Data Type:** Categorical (String)  
+- **Possible Values:**  
+  - **Low**: Minor adverse events that typically resolve quickly without significant intervention (e.g., mild pain, redness, or swelling at the injection site).  
+  - **Mid**: Moderate adverse events requiring medical attention or causing temporary disruption (e.g., fever, rash, pronounced local reactions).  
+  - **High**: Severe adverse events that may require hospitalization, lead to long-term complications, or be life-threatening (e.g., anaphylaxis, seizures, severe neurological reactions).  
+
+#### **Outcome Categories**  
+- **Description:** Describes the current status or resolution of the reported adverse event.  
+- **Data Type:** Categorical (String)  
+- **Possible Values:**  
+  - **Resolved**: The adverse event has subsided, and the individual has recovered.  
+  - **Ongoing**: The adverse event is still present and being monitored.  
+  - **Recovering**: The adverse event is improving but not fully resolved.  
+  - **Fatal**: The adverse event resulted in death.  
+  - **Unknown**: The outcome of the adverse event is not yet known.  
+
+#### **Adverse Event Types**  
+- **Description:** Specific descriptions of reported adverse reactions following vaccination.  
+- **Data Type:** Categorical (String)  
+- **Possible Values:**  
+  - Pain at injection site  
+  - High fever (>40°C)  
+  - Severe local reaction  
+  - Anaphylaxis  
+  - Severe allergic reaction  
+  - Seizures  
+  - Acute paralysis  
+  - Other neurological complications  
+
+#### **Vaccine Types**  
+- **Description:** The name of the vaccine administered.  
+- **Data Type:** Categorical (String)  
+- **Possible Values:**  
+  - DTP (Diphtheria, Tetanus, Pertussis)  
+  - Hepatitis A  
+  - Influenza  
+  - Japanese Encephalitis  
+  - Covid-19  
+  - MMR (Measles, Mumps, Rubella)  
+  - Polio  
+  - Pneumococcal  
+  - Meningococcal  
+  - Rotavirus  
+  - Typhoid  
+  - Varicella (Chickenpox)  
+  - Yellow fever  
+  - Rabies  
 
 ## 📷 Screenshots & Visuals  
 ### **Screenshots & Visuals**  
