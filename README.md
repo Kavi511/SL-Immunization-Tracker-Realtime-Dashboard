@@ -123,13 +123,13 @@ Create a data dictionary explaining fields like:
 
 * **Description:** Describes the current status or resolution of the reported adverse event.
 * **Data Type:** Categorical (String)
-* **Possible Values:** (Based on the image, only "Resolved" is visible, but this list can be expanded)
-    * **Resolved:** The adverse event has subsided and the individual has recovered.
-    * **(Other possible values, not visible in the image):**
-        * **Ongoing:** The adverse event is still present and being monitored.
-        * **Recovering:** The adverse event is improving but not fully resolved.
-        * **Fatal:** The adverse event resulted in death.
-        * **Unknown:** The outcome of the adverse event is not yet known.
+* **Possible Values:** 
+
+  * **Resolved:** The adverse event has subsided and the individual has recovered.
+  * **Ongoing:** The adverse event is still present and being monitored.
+  * **Recovering:** The adverse event is improving but not fully resolved.
+  * **Fatal:** The adverse event resulted in death.
+  * **Unknown:** The outcome of the adverse event is not yet known.
 
 **3. Adverse Event Types**
 
