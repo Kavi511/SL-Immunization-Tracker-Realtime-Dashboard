@@ -41,15 +41,14 @@ Power BI Desktop (Download Here)
 Microsoft Excel (Required if using .xlsx data sources)
 Data File (Ensure the required .xlsx file is available in the /data folder of this repository)
 
-2️⃣ Installing Power BI Desktop
-For Windows:
+2️⃣ Installing Power BI Desktop For Windows:
+
 Download Power BI Desktop from the official Microsoft website:
 👉https://powerbi.microsoft.com/en-us/downloads/
 Open the downloaded .exe file and follow the installation wizard.
 Once installed, launch Power BI Desktop.
 
-3️⃣ Linking an Excel File in Power BI
-Follow these steps to connect an Excel file (.xlsx) to Power BI:
+3️⃣ Linking an Excel File in Power BI Follow these steps to connect an Excel file (.xlsx) to Power BI:
 
 Step 1: Open Power BI Desktop
 Launch Power BI Desktop from the Start Menu.
@@ -66,14 +65,12 @@ Click Load to import data directly OR Transform Data to open the Power Query Edi
 Step 4: Verify the Connection
 Go to the Data View (left sidebar) and confirm that the imported data appears correctly.
 
-4️⃣ Refreshing Data in Power BI
-If the Excel file is updated, refresh the dataset in Power BI:
+4️⃣ Refreshing Data in Power BI If the Excel file is updated, refresh the dataset in Power BI:
 
 Open Power BI Desktop.
 Click Refresh from the Home tab.
 
-5️⃣ Publishing the Dashboard
-To share the dashboard online:
+5️⃣ Publishing the Dashboard To share the dashboard online:
 
 Click Publish in Power BI Desktop.
 Sign in to Power BI Service (powerbi.com).
