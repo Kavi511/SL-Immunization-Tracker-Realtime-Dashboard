@@ -96,10 +96,12 @@ Create a data dictionary explaining fields like:
 
 ## 📷 Screenshots & Visuals  
 ![Dashboard Screenshot] 
+mnjk7n![image](https://github.com/user-attachments/assets/016d24ff-ba19-496d-b220-367c27ab0062)
 ![Screenshot 2025-01-03 170542](https://github.com/user-attachments/assets/0fb79a65-eeef-444c-ae1c-a8b21c9d5c74)
 ![Screenshot 2025-01-03 171449](https://github.com/user-attachments/assets/6c55dd9d-e7cf-4950-b841-8cdd570e00b8)
 ![Screenshot 2025-01-03 170756](https://github.com/user-attachments/assets/3f50dc26-e4bb-4dff-8857-7d37a01a442f)
 ![Screenshot 2025-01-03 170859](https://github.com/user-attachments/assets/eb08a610-be97-46d6-b366-bdda554e5a31)
+
 
 
 ## 🛠️ Technical Details  
