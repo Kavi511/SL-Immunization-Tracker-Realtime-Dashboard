@@ -3,8 +3,9 @@ Power BI is a powerful business intelligence and data visualization tool by Micr
 
 # 📈 Sri Lankan Immunization Tracker - Power BI Dashboard 📉
 
-![Power BI Dashboard]
+[Power BI Dashboard]
 [SL Immunization_Tracker.pdf](https://github.com/user-attachments/files/19227676/SL.Immunization_Tracker.pdf)
+
 Demo link 
 
 ## 📖 Overview  
