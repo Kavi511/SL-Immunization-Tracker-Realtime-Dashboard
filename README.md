@@ -1,7 +1,7 @@
 # 📊 What is Power BI?
 Power BI is a powerful business intelligence and data visualization tool by Microsoft that allows users to connect, analyze, and visualize data from various sources. It provides interactive dashboards, real-time insights, and advanced analytics to help businesses and individuals make data-driven decisions. With its user-friendly interface and powerful features like DAX calculations, Power Query transformations, and AI-driven analytics, Power BI is the go-to tool for professionals looking to turn raw data into meaningful insights..
 
-# 📈 Sri Lankan Immunization Tracker - Power BI Dashboard 📉
+# 📈 Sri Lankan Immunization Tracker - Power BI Dashboard 
 
 ## Power BI Dashboard:[SL Immunization_Tracker.pdf](https://github.com/user-attachments/files/19227676/SL.Immunization_Tracker.pdf)
 ## Demo link :
@@ -42,6 +42,10 @@ Microsoft Excel (https://www.microsoft.com/en-us/microsoft-365/excel)
 Data File: (Ensure the required .xlsx file is available in the /data folder of this repository.) 
 
 ## Note: # The full dataset is not included in this repository due to the sensitive nature of medical data. Only a sample dataset is provided for demonstration purposes.
+
+## 📷 Screenshots of sample datasets 
+![image](https://github.com/user-attachments/assets/73678df9-0169-48a3-9d4a-040b8ea98890)
+![image](https://github.com/user-attachments/assets/0b98b5da-71d9-41af-8b5e-9cd4b8232c90)
 
 2️⃣ Installing Power BI Desktop For Windows:
 
