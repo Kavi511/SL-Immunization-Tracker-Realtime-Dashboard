@@ -106,7 +106,8 @@ Step 4: Verify the Connection
 4. **Publishing**: Click **Publish** in Power BI to deploy to **Power BI Service**.
    
 ## 📊 Data Dictionary
-Create a data dictionary explaining fields like:  
+Create a data dictionary explaining fields like: 
+ 
 **1. Severity (Low, Mid, High)**
 
 * **Description:** Categorical classification of the seriousness of the reported adverse event following vaccination.
