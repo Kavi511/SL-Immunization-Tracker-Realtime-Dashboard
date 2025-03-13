@@ -124,7 +124,6 @@ Create a data dictionary explaining fields like:
 * **Description:** Describes the current status or resolution of the reported adverse event.
 * **Data Type:** Categorical (String)
 * **Possible Values:** 
-
   * **Resolved:** The adverse event has subsided and the individual has recovered.
   * **Ongoing:** The adverse event is still present and being monitored.
   * **Recovering:** The adverse event is improving but not fully resolved.
