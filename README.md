@@ -65,8 +65,12 @@ Create a data dictionary explaining fields like:
 4. Vaccine Types
 
 ## 📷 Screenshots & Visuals  
-![Dashboard Screenshot](images/dashboard-example.png)  
-*(Add multiple images showing key visuals of your dashboard)*  
+![Dashboard Screenshot] 
+![Screenshot 2025-01-03 170542](https://github.com/user-attachments/assets/0fb79a65-eeef-444c-ae1c-a8b21c9d5c74)
+![Screenshot 2025-01-03 171449](https://github.com/user-attachments/assets/6c55dd9d-e7cf-4950-b841-8cdd570e00b8)
+![Screenshot 2025-01-03 170756](https://github.com/user-attachments/assets/3f50dc26-e4bb-4dff-8857-7d37a01a442f)
+![Screenshot 2025-01-03 170859](https://github.com/user-attachments/assets/eb08a610-be97-46d6-b366-bdda554e5a31)
+
 
 ## 🛠️ Technical Details  
 - **Power Query (M Language)**: Used for data transformation.  
@@ -85,10 +89,10 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 Contributions are welcome! Feel free to fork this repository and submit pull requests.  
 
 ## 📧 Contact  
-🔹 **Author**: [Your Name]  
-🔹 **Email**: [your-email@example.com]  
-🔹 **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)  
-🔹 **GitHub**: [Your GitHub](https://github.com/your-username)  
+🔹 **Author**: [Kavishka Chathuranga Herath]  
+🔹 **Email**: [kavishkacherath@gmail.com]  
+🔹 **LinkedIn**: (https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BBXByjaXVSjiAOgEWSuettQ%3D%3D)  
+🔹 **GitHub**: [Your GitHub]()  
 
 
 
