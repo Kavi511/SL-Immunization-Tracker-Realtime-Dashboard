@@ -111,7 +111,7 @@ Create a data dictionary explaining fields like:
         * **Fatal:** The adverse event resulted in death.
         * **Unknown:** The outcome of the adverse event is not yet known.
 
-3. **3. Adverse Event Types**
+**3. Adverse Event Types**
 
 * **Description:** Specific descriptions of the reported adverse reactions following vaccination.
 * **Data Type:** Categorical (String)
