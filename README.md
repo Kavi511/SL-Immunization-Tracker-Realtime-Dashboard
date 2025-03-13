@@ -102,8 +102,6 @@ mnjk7n![image](https://github.com/user-attachments/assets/016d24ff-ba19-496d-b22
 ![Screenshot 2025-01-03 170756](https://github.com/user-attachments/assets/3f50dc26-e4bb-4dff-8857-7d37a01a442f)
 ![Screenshot 2025-01-03 170859](https://github.com/user-attachments/assets/eb08a610-be97-46d6-b366-bdda554e5a31)
 
-
-
 ## 🛠️ Technical Details  
 - **Power Query (M Language)**: Used for data transformation, cleaning, and reshaping of records before loading into the data model. 
 - **DAX Measures**: Custom calculations for key metrics including:
@@ -124,12 +122,6 @@ mnjk7n![image](https://github.com/user-attachments/assets/016d24ff-ba19-496d-b22
 - [ ] Optimize data processing for faster query performance and lower latency
 - [ ] Implement role-based access control (RBAC) for better data security
 - [ ] Publish the dashboard to Power BI Service for wider accessibility and collaboration
-
-## 📜 License  
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.  
-
-## 🤝 Contributing  
-Contributions are welcome! Feel free to fork this repository and submit pull requests.  
 
 ## 📧 Contact  
 🔹 **Author**:[Kavishka Chathuranga Herath]  
