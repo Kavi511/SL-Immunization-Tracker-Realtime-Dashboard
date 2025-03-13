@@ -23,12 +23,10 @@ The dashboard leverages Big Data analytics to identify patterns and trends in re
 ## 📂 Repository Structure  
 ```
 📦 SL-Immunization-Tracker  
- ┣ 📂 pbix/                # Power BI dashboard files  
- ┣ 📂 data/                # Data files used in the dashboard (CSV, Excel, etc.)  
+ ┣ 📂 pbix/                # Power BI dashboard files    
  ┣ 📂 images/              # Screenshots and previews of the dashboard  
  ┣ 📜 README.md            # Project documentation  
- ┗ 📜 LICENSE              # License information (if applicable)  
-
+ 
 ```
 
 ## 🛠️ Installation & Setup
@@ -52,13 +50,16 @@ Follow these steps to connect an Excel file (.xlsx) to Power BI:
 
 Step 1: Open Power BI Desktop
 Launch Power BI Desktop from the Start Menu.
+
 Step 2: Import Excel Data
 Click on Home → Get Data → Excel.
 Browse to the data folder in the cloned repository and select the Excel file (data/your-data.xlsx).
 Click Open.
+
 Step 3: Load Data into Power BI
 A preview of the Excel sheets will appear. Select the relevant worksheet(s).
 Click Load to import data directly OR Transform Data to open the Power Query Editor for modifications.
+
 Step 4: Verify the Connection
 Go to the Data View (left sidebar) and confirm that the imported data appears correctly.
 
@@ -89,10 +90,60 @@ The dashboard will be available online for stakeholders to view.
    
 ## 📊 Data Dictionary
 Create a data dictionary explaining fields like:  
-1. Severity (Low, Mid, High)
-2. Outcome categories
-3. Adverse Event types
-4. Vaccine Types
+**1. Severity (Low, Mid, High)**
+
+* **Description:** Categorical classification of the seriousness of the reported adverse event following vaccination.
+* **Data Type:** Categorical (String)
+* **Possible Values:**
+    * **Low:** Minor adverse events that typically resolve quickly without significant intervention. Examples may include mild pain, redness, or swelling at the injection site.
+    * **Mid:** Moderate adverse events that may require medical attention or cause some discomfort or temporary disruption to daily activities. Examples may include fever, rash, or more pronounced local reactions.
+    * **High:** Severe adverse events that may require hospitalization, lead to long-term complications, or be life-threatening. Examples may include anaphylaxis, seizures, or severe neurological reactions.
+      
+**2. Outcome Categories**
+
+* **Description:** Describes the current status or resolution of the reported adverse event.
+* **Data Type:** Categorical (String)
+* **Possible Values:** (Based on the image, only "Resolved" is visible, but this list can be expanded)
+    * **Resolved:** The adverse event has subsided and the individual has recovered.
+    * **(Other possible values, not visible in the image):**
+        * **Ongoing:** The adverse event is still present and being monitored.
+        * **Recovering:** The adverse event is improving but not fully resolved.
+        * **Fatal:** The adverse event resulted in death.
+        * **Unknown:** The outcome of the adverse event is not yet known.
+
+3. **3. Adverse Event Types**
+
+* **Description:** Specific descriptions of the reported adverse reactions following vaccination.
+* **Data Type:** Categorical (String)
+* **Possible Values:** 
+    * Pain at injection
+    * High fever (>40°C)
+    * Severe local reaction
+    * Anaphylaxis
+    * Other neurological... (further detail needed for complete understanding)
+    * Severe allergic reaction
+    * Seizures
+    * Acute paralysis
+
+**4. Vaccine Types**
+
+* **Description:** The name of the vaccine administered.
+* **Data Type:** Categorical (String)
+* **Possible Values:** (Based on the image)
+    * DTP (Diphtheria, Tetanus, Pertussis)
+    * Hepatitis A
+    * Influenza
+    * Japanese Encephalitis
+    * Covid-19
+    * MMR (Measles, Mumps, Rubella)
+    * Polio
+    * Pneumococcal
+    * Meningococcal
+    * Rotavirus
+    * Typhoid
+    * Varicella (Chickenpox)
+    * Yellow fever
+    * Rabies
 
 ## 📷 Screenshots & Visuals  
 ![Dashboard Screenshot] 
@@ -105,10 +156,10 @@ mnjk7n![image](https://github.com/user-attachments/assets/016d24ff-ba19-496d-b22
 ## 🛠️ Technical Details  
 - **Power Query (M Language)**: Used for data transformation, cleaning, and reshaping of records before loading into the data model. 
 - **DAX Measures**: Custom calculations for key metrics including:
-- Severity counts and distributions
-- Age averages by demographic groups
-- Adverse event percentages
-- Outcome analysis.
+1. Severity counts and distributions
+2. Age averages by demographic groups
+3. Adverse event percentages
+4. Outcome analysis.
 - **Geospatial Integrations**: Implemented location mapping using TomTom and Microsoft map services with OpenStreetMap data.  
 - **Filtering Logic**:  Cross-filtering implemented between visualizations for interactive analysis by vaccine type, year, severity, and demographic factors.
 
