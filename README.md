@@ -30,9 +30,13 @@ The dashboard leverages Big Data analytics to identify patterns and trends in re
 ## 🛠️ Installation & Setup
 
 1️⃣ Prerequisites
+
 🔹Ensure you have the following installed before proceeding:
+
 🔹Power BI Desktop (https://apps.microsoft.com/detail/9nblgggzlxn1?hl=en-US&gl=LK)
+
 🔹Microsoft Excel (https://www.microsoft.com/en-us/microsoft-365/excel)
+
 🔹Data File: (Ensure the required .xlsx file is available in the /data folder of this repository.) 
 
 ## Note: # The full dataset is not included in this repository due to the sensitive nature of medical data. Only a sample dataset is provided for demonstration purposes.
