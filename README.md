@@ -89,10 +89,10 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 Contributions are welcome! Feel free to fork this repository and submit pull requests.  
 
 ## 📧 Contact  
-🔹 **Author**: [Kavishka Chathuranga Herath]  
-🔹 **Email**: [kavishkacherath@gmail.com]  
-🔹 **LinkedIn**: (https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BBXByjaXVSjiAOgEWSuettQ%3D%3D)  
-🔹 **GitHub**: [Your GitHub]()  
+🔹 **Author**:[Kavishka Chathuranga Herath]  
+🔹 **Email**:[kavishkacherath@gmail.com]  
+🔹 **LinkedIn**:(https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BBXByjaXVSjiAOgEWSuettQ%3D%3D)  
+🔹 **GitHub**:(https://github.com/Kavi511)  
 
 
 
