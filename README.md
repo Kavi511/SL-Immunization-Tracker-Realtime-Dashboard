@@ -1,50 +1,80 @@
+Demo link 
+
 # Power-BI-Dashboards
 This repository showcases a variety of designs and use cases, highlighting powerful data visualizations and actionable insights. Perfect for professionals and enthusiasts looking to explore, learn, and implement effective dashboard solutions.
 
-# 📊 SL Immunization Tracker - Power BI Dashboard  
+# 📈 Sri Lankan Immunization Tracker - Power BI Dashboard 📉
 
-![Power BI Dashboard][SL Immunization_Tracker.pdf](https://github.com/user-attachments/files/19227676/SL.Immunization_Tracker.pdf)
-
+![Power BI Dashboard]
+[SL Immunization_Tracker.pdf](https://github.com/user-attachments/files/19227676/SL.Immunization_Tracker.pdf)
 
 ## 📖 Overview  
-[Project Name] is an interactive Power BI dashboard designed to visualize [briefly describe the purpose]. It provides insights into [mention key focus areas] using real-time data analysis and interactive reports.  
+SL Immunization Tracker is an interactive Power BI dashboard designed to visualize and monitor adverse events following immunization (AEFI) in Sri Lanka. It provides real-time insights into vaccine-related safety concerns, enabling medical professionals, policymakers, and researchers to make informed decisions.
+
+The dashboard leverages Big Data analytics to identify patterns and trends in reported adverse events, ensuring proactive responses to potential safety issues. It aims to bridge the gap between vaccination data and healthcare professionals, improving vaccine safety surveillance and public trust in the National Vaccination Programme of Sri Lanka.
 
 ## 🚀 Features  
-✔️ Interactive visualizations for [key insights]  
-✔️ Real-time data updates (if applicable)  
-✔️ Custom DAX measures and calculated columns  
-✔️ Integrated Power Query (M Language) for data transformation  
-✔️ Filter, drill-down, and slicer functionalities  
+✔️ Real-time monitoring of vaccine-related adverse events
+✔️ Interactive visualizations for trend analysis and pattern recognition
+✔️ Data-driven decision-making for healthcare professionals
+✔️ Integration of primary & secondary data sources for comprehensive analysis
+✔️ User-friendly interface for quick insights and reporting 
 
 ## 📂 Repository Structure  
 ```
-📦 [Repository Name]  
- ┣ 📂 data/                # Sample data files (CSV, Excel, etc.)  
+📦 SL-Immunization-Tracker  
  ┣ 📂 pbix/                # Power BI dashboard files  
- ┣ 📂 scripts/             # DAX, M Language, or Python scripts  
- ┣ 📂 images/              # Screenshots and previews  
+ ┣ 📂 data/                # Data files used in the dashboard (CSV, Excel, etc.)  
+ ┣ 📂 images/              # Screenshots and previews of the dashboard  
  ┣ 📜 README.md            # Project documentation  
  ┗ 📜 LICENSE              # License information (if applicable)  
+
 ```
 
 ## 🛠️ Installation & Setup
 
-### **1️⃣ Prerequisites**  
-Ensure you have the following installed:  
-- Power BI Desktop ([Download Here](https://powerbi.microsoft.com/))  
-- Microsoft Excel (if using `.xlsx` data sources)  
-- Database connection (if applicable, specify details)  
+1️⃣ Prerequisites
+Ensure you have the following installed before proceeding:
 
-### **2️⃣ Clone the Repository**  
+Power BI Desktop (Download Here)
+Microsoft Excel (Required if using .xlsx data sources)
+Data File (Ensure the required .xlsx file is available in the /data folder of this repository)
 
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+2️⃣ Installing Power BI Desktop
+For Windows:
+Download Power BI Desktop from the official Microsoft website:
+👉https://powerbi.microsoft.com/en-us/downloads/
+Open the downloaded .exe file and follow the installation wizard.
+Once installed, launch Power BI Desktop.
 
+3️⃣ Linking an Excel File in Power BI
+Follow these steps to connect an Excel file (.xlsx) to Power BI:
 
-### **3️⃣ Open the Power BI File**  
-1. Open `pbix/[YourDashboard].pbix` in Power BI Desktop.  
-2. If prompted, update the data source settings (see below).  
-3. Click **Refresh** to load the latest data.  
+Step 1: Open Power BI Desktop
+Launch Power BI Desktop from the Start Menu.
+Step 2: Import Excel Data
+Click on Home → Get Data → Excel.
+Browse to the data folder in the cloned repository and select the Excel file (data/your-data.xlsx).
+Click Open.
+Step 3: Load Data into Power BI
+A preview of the Excel sheets will appear. Select the relevant worksheet(s).
+Click Load to import data directly OR Transform Data to open the Power Query Editor for modifications.
+Step 4: Verify the Connection
+Go to the Data View (left sidebar) and confirm that the imported data appears correctly.
+
+4️⃣ Refreshing Data in Power BI
+If the Excel file is updated, refresh the dataset in Power BI:
+
+Open Power BI Desktop.
+Click Refresh from the Home tab.
+
+5️⃣ Publishing the Dashboard
+To share the dashboard online:
+
+Click Publish in Power BI Desktop.
+Sign in to Power BI Service (powerbi.com).
+Select a workspace and click Publish.
+The dashboard will be available online for stakeholders to view.
 
 ## 🔗 Data Source Configuration  
 - **Local Files**: Ensure `data/` contains necessary `.csv` or `.xlsx` files.  
@@ -73,14 +103,25 @@ Create a data dictionary explaining fields like:
 
 
 ## 🛠️ Technical Details  
-- **Power Query (M Language)**: Used for data transformation.  
-- **DAX Measures**: Custom calculations for insights.  
-- **External APIs**: If applicable, mention APIs used.  
+- **Power Query (M Language)**: Used for data transformation, cleaning, and reshaping of records before loading into the data model. 
+- **DAX Measures**: Custom calculations for key metrics including:
+- Severity counts and distributions
+- Age averages by demographic groups
+- Adverse event percentages
+- Outcome analysis.
+- **Geospatial Integrations**: Implemented location mapping using TomTom and Microsoft map services with OpenStreetMap data.  
+- **Filtering Logic**:  Cross-filtering implemented between visualizations for interactive analysis by vaccine type, year, severity, and demographic factors.
 
 ## 🔥 Future Improvements  
-- [ ] Add more KPIs and performance metrics  
-- [ ] Automate data refresh using Power BI Gateway  
-- [ ] Enhance UI/UX for better user experience  
+- [ ] Integrate machine learning models to predict adverse event risks
+- [ ] Automate data refresh using Power BI Gateway for real-time updates  
+- [ ] Enhance UI/UX with interactive drill-through reports and tooltips
+- [ ] Enable mobile-friendly dashboards for better accessibility
+- [ ] Incorporate external data sources (e.g., WHO) for comparative insights
+- [ ] Develop an alert system to notify healthcare professionals of emerging trends
+- [ ] Optimize data processing for faster query performance and lower latency
+- [ ] Implement role-based access control (RBAC) for better data security
+- [ ] Publish the dashboard to Power BI Service for wider accessibility and collaboration
 
 ## 📜 License  
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.  
@@ -91,7 +132,7 @@ Contributions are welcome! Feel free to fork this repository and submit pull req
 ## 📧 Contact  
 🔹 **Author**:[Kavishka Chathuranga Herath]  
 🔹 **Email**:[kavishkacherath@gmail.com]  
-🔹 **LinkedIn**:(https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BBXByjaXVSjiAOgEWSuettQ%3D%3D)  
+🔹 **LinkedIn**:(https://www.linkedin.com/in/kavishka-herath-2ab2b3245/)  
 🔹 **GitHub**:(https://github.com/Kavi511)  
 
 
