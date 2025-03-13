@@ -43,6 +43,7 @@ The dashboard leverages Big Data analytics to identify patterns and trends in re
 ## 📷 Screenshots of Sample Datasets  
 **Figure 6: Epidemiology Unit and MOH Raw Data (2019 - 2024)**  
 ![image](https://github.com/user-attachments/assets/eb134850-2418-4126-ac95-23ec5abe8270)
+
 **Figure 7: Primary Research Raw Data (Responses)**  
 ![image](https://github.com/user-attachments/assets/0b98b5da-71d9-41af-8b5e-9cd4b8232c90)  
 
