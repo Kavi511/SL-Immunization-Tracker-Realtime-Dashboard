@@ -189,86 +189,79 @@ Create a data dictionary explaining fields like:
   - Yellow fever  
   - Rabies  
 
-## **Data Relationship and Transformation Guide**
+## **🏥 Data Relationship and Transformation Guide**
 
-This document outlines the data relationships and transformation processes used to integrate Primary Research Data with Epidemiology Data for vaccine-related analysis.
+🔗 1. Relationship: Vaccine Types
 
-1. Relationship: Vaccine Types
+📊 Understanding the Data
 
-Understanding the Data
+✅ Primary Research Data: Contains multiple entries for each vaccine type due to various reported adverse events.
+✅ Epidemiology Data: Also has multiple entries for each vaccine type, tracking different adverse events over time.
 
-Primary Research Data: Contains multiple entries for each vaccine type due to various reported adverse events.
+🔄 Recommended Relationship Setup
 
-Epidemiology Data: Also has multiple entries for each vaccine type, tracking different adverse events over time.
+Cardinality: 🟢 Many-to-Many
 
-Recommended Relationship Setup
+Cross-Filter Direction: 🔄 Both
 
-Cardinality: Many-to-Many
+⚙️ Action Steps
 
-Cross-Filter Direction: Both
+🛠 Data Preparation
 
-Action Steps
+📌 Ensure consistency in vaccine type names (e.g., "MMR" vs. "Measles-Mumps-Rubella").
+📌 Format the relevant columns as Text data type.
 
-Data Preparation
+🔗 Creating the Relationship
 
-Ensure consistency in vaccine type names (e.g., "MMR" vs. "Measles-Mumps-Rubella").
-
-Format the relevant columns as Text data type.
-
-Creating the Relationship
-
-In Model View, drag the Types of Vaccines column from the Primary Research table to the Vaccine Type column in the Epidemiology table.
-
-In the Edit Relationship dialog:
+1️⃣ In Model View, drag the Types of Vaccines column from the Primary Research table to the Vaccine Type column in the Epidemiology table.
+2️⃣ In the Edit Relationship dialog:
 
 Set Cardinality to Many-to-Many.
 
 Set Cross-filter direction to Both.
+3️⃣ Click OK to confirm.
 
-Click OK to confirm.
+🏷️ 2. Relationship: Age Group
 
-2. Relationship: Age Group
+📊 Understanding the Data
 
-Understanding the Data
+✅ Primary Research Data: Uses age groups (e.g., "0–5", "6–10").
+✅ Epidemiology Data: Contains individual ages (e.g., 4, 7, 12).
 
-Primary Research Data: Uses age groups (e.g., "0–5", "6–10").
-
-Epidemiology Data: Contains individual ages (e.g., 4, 7, 12).
-
-Recommended Relationship Setup
+🔄 Recommended Relationship Setup
 
 Data Transformation Needed: Convert individual ages into the same age ranges as the Primary Research Data.
 
-Action Steps
+⚙️ Action Steps
 
-Creating Age Groups in Epidemiology Data
+🛠 Creating Age Groups in Epidemiology Data
 
-Open Power Query Editor.
+1️⃣ Open Power Query Editor.
+2️⃣ Select the Epidemiology table.
+3️⃣ Add a new custom column named Age Group using the following logic:
 
-Select the Epidemiology table.
-
-Add a new custom column named Age Group using the following logic:
+''
 
 = if [Age] >= 0 and [Age] <= 5 then "0–5"
 else if [Age] >= 6 and [Age] <= 10 then "6–10"
 else if [Age] >= 11 and [Age] <= 15 then "11–15"
 else "16+"
 
-Adjust the age ranges as necessary.
+''
 
-Close and apply the changes.
+4️⃣ Adjust the age ranges as necessary.
+5️⃣ Close and apply the changes.
 
-Creating the Relationship
+🔗 Creating the Relationship
 
-In Model View, drag the Age Group column from the Primary Research table to the Age Group column in the Epidemiology table.
-
-In the Edit Relationship dialog:
+1️⃣ In Model View, drag the Age Group column from the Primary Research table to the Age Group column in the Epidemiology table.
+2️⃣ In the Edit Relationship dialog:
 
 Set Cardinality to Many-to-Many.
 
 Set Cross-filter direction to Both.
+3️⃣ Click OK to confirm.
 
-Click OK to confirm.
 
 ## 📷 Screenshots & Visuals  
 ### **Screenshots & Visuals**  
