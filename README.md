@@ -190,11 +190,12 @@ Create a data dictionary explaining fields like:
 
 ## **🏥 Data Relationship and Transformation Guide**
 
-🔗 1. Relationship: Vaccine Types
+1. Relationship: Vaccine Types
 
 📊 Understanding the Data
 
 ✅ Primary Research Data: Contains multiple entries for each vaccine type due to various reported adverse events.
+
 ✅ Epidemiology Data: Also has multiple entries for each vaccine type, tracking different adverse events over time.
 
 🔄 Recommended Relationship Setup
@@ -208,6 +209,7 @@ Cross-Filter Direction: 🔄 Both
 🛠 Data Preparation
 
 📌 Ensure consistency in vaccine type names (e.g., "MMR" vs. "Measles-Mumps-Rubella").
+
 📌 Format the relevant columns as Text data type.
 
 🔗 Creating the Relationship
@@ -227,6 +229,7 @@ Set Cross-filter direction to Both.
 📊 Understanding the Data
 
 ✅ Primary Research Data: Uses age groups (e.g., "0–5", "6–10").
+
 ✅ Epidemiology Data: Contains individual ages (e.g., 4, 7, 12).
 
 🔄 Recommended Relationship Setup
