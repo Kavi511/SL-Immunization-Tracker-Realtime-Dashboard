@@ -191,7 +191,6 @@ Create a data dictionary explaining fields like:
 ## **🏥 Data Relationship and Transformation Guide**
 This section I try **establishes data relationships and applies transformation processes** to integrate **Primary Research Data** with **Epidemiology Data** for vaccine-related analysis.
 
-
 1. Relationship: Vaccine Types
 
 📊 Understanding the Data
@@ -226,8 +225,7 @@ Cross-Filter Direction: 🔄 Both
 
 3️⃣ Click OK to confirm.
 
-
-🏷️ 2. Relationship: Age Group
+2. Relationship: Age Group
 
 📊 Understanding the Data
 
