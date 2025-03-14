@@ -109,8 +109,7 @@ Step 4: Verify the Connection
    
 ## 📊 Data Dictionary
 Create a data dictionary explaining fields like: 
- ## 📊 Data Dictionary  
-
+ 
 ### **1️⃣ Data Collection**  
 
 #### **• Primary Data Collection:**  
@@ -214,11 +213,13 @@ Cross-Filter Direction: 🔄 Both
 🔗 Creating the Relationship
 
 1️⃣ In Model View, drag the Types of Vaccines column from the Primary Research table to the Vaccine Type column in the Epidemiology table.
+
 2️⃣ In the Edit Relationship dialog:
 
 Set Cardinality to Many-to-Many.
 
 Set Cross-filter direction to Both.
+
 3️⃣ Click OK to confirm.
 
 🏷️ 2. Relationship: Age Group
@@ -237,7 +238,9 @@ Data Transformation Needed: Convert individual ages into the same age ranges as 
 🛠 Creating Age Groups in Epidemiology Data
 
 1️⃣ Open Power Query Editor.
+
 2️⃣ Select the Epidemiology table.
+
 3️⃣ Add a new custom column named Age Group using the following logic:
 
 ''
@@ -250,18 +253,20 @@ else "16+"
 ''
 
 4️⃣ Adjust the age ranges as necessary.
+
 5️⃣ Close and apply the changes.
 
 🔗 Creating the Relationship
 
 1️⃣ In Model View, drag the Age Group column from the Primary Research table to the Age Group column in the Epidemiology table.
+
 2️⃣ In the Edit Relationship dialog:
 
 Set Cardinality to Many-to-Many.
 
 Set Cross-filter direction to Both.
-3️⃣ Click OK to confirm.
 
+3️⃣ Click OK to confirm.
 
 ## 📷 Screenshots & Visuals  
 ### **Screenshots & Visuals**  
