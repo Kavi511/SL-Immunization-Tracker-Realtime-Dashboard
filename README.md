@@ -246,14 +246,12 @@ Data Transformation Needed: Convert individual ages into the same age ranges as 
 
 3️⃣ Add a new custom column named Age Group using the following logic:
 
-''
-
+```
 = if [Age] >= 0 and [Age] <= 5 then "0–5"
-else if [Age] >= 6 and [Age] <= 10 then "6–10"
-else if [Age] >= 11 and [Age] <= 15 then "11–15"
-else "16+"
-
-''
+  else if [Age] >= 6 and [Age] <= 10 then "6–10"
+  else if [Age] >= 11 and [Age] <= 15 then "11–15"
+  else "16+"
+```
 
 4️⃣ Adjust the age ranges as necessary.
 
