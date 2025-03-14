@@ -303,6 +303,7 @@ Cross-Filter Direction: 🔄 Both
 🔹 Outcome analysis.
 
 2️⃣ **Geospatial Integrations**: Implemented location mapping using TomTom and Microsoft map services with OpenStreetMap data.  
+
 3️⃣ **Filtering Logic**:  Cross-filtering implemented between visualizations for interactive analysis by vaccine type, year, severity, and demographic factors.
 
 ## 🔥 Future Improvements  
