@@ -290,7 +290,7 @@ Cross-Filter Direction: 🔄 Both
 
 
 ## 🛠️ Technical Details  
-1️⃣ **Power Query (M Language)**: Used for data transformation, cleaning, and reshaping of records before loading into the data model. 
+1️⃣ **Power Query**: Used for data transformation, cleaning, and reshaping of records before loading into the data model. 
 
 🔹 Severity counts and distributions
 
