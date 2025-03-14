@@ -218,9 +218,9 @@ Cross-Filter Direction: 🔄 Both
 
 2️⃣ In the Edit Relationship dialog:
 
-Set Cardinality to Many-to-Many.
+Cardinality: 🟢 Many-to-Many
 
-Set Cross-filter direction to Both.
+Cross-Filter Direction: 🔄 Both
 
 3️⃣ Click OK to confirm.
 
@@ -263,9 +263,9 @@ Data Transformation Needed: Convert individual ages into the same age ranges as 
 
 2️⃣ In the Edit Relationship dialog:
 
-Set Cardinality to Many-to-Many.
+Cardinality: 🟢 Many-to-Many
 
-Set Cross-filter direction to Both.
+Cross-Filter Direction: 🔄 Both
 
 3️⃣ Click OK to confirm.
 
