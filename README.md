@@ -189,7 +189,7 @@ Create a data dictionary explaining fields like:
   - Rabies  
 
 ## **🏥 Data Relationship and Transformation Guide**
-This section I **establishes data relationships and applies transformation processes** to integrate **Primary Research Data** with **Epidemiology Data** for vaccine-related analysis.
+This section I try **establishes data relationships and applies transformation processes** to integrate **Primary Research Data** with **Epidemiology Data** for vaccine-related analysis.
 
 
 1. Relationship: Vaccine Types
