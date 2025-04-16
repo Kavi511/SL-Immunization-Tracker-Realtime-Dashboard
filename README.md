@@ -1,4 +1,4 @@
-# 📈 Sri Lankan Immunization Tracker - Power BI Dashboard 
+# 📈 Sri Lankan Immunization Tracker - Web Base Power BI Dashboard 
 
 ## Power BI Dashboard: [SL Immunization_Tracker.pdf](https://github.com/user-attachments/files/19227676/SL.Immunization_Tracker.pdf)
 
