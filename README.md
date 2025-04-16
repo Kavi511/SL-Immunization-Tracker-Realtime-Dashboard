@@ -316,8 +316,9 @@ Cross-Filter Direction: 🔄 Both
 - [ ] Publish the dashboard to Power BI Service for wider accessibility and collaboration
 
 ## 📧 Contact  
-🔹 **Author**:Kavishka Chathuranga Herath
+🔹 **Author**: Kavishka Chathuranga Herath
 
-🔹 **Email**:[kavishkacherath@gmail.com]  
-🔹 **LinkedIn**:(https://www.linkedin.com/in/kavishka-herath-2ab2b3245/)  
-🔹 **GitHub**:(https://github.com/Kavi511)  
+🔹 **Email**: [kavishkacherath@gmail.com]  
+🔹 **LinkedIn**: (https://www.linkedin.com/in/kavishka-herath-2ab2b3245/)  
+🔹 **GitHub**: (https://github.com/Kavi511) 
+
