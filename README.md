@@ -1,4 +1,4 @@
-#  Real-Time Web-Based Dashboard for Tracking Sri Lankan Immunization Data
+#  Single source for analyzing adverse events after immunizations and providing medical professionals clear information on Sri Lanka's vaccination program
 
 ## Power BI Dashboard: [SL Immunization_Tracker.pdf](https://github.com/user-attachments/files/19227676/SL.Immunization_Tracker.pdf)
 
