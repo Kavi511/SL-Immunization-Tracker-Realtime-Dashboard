@@ -1,4 +1,4 @@
-#Sri Lankan Immunization Real Time Tracker - Web Base Power BI Dashboard
+#  Real-Time Web-Based Dashboard for Tracking Sri Lankan Immunization Data
 
 ## Power BI Dashboard: [SL Immunization_Tracker.pdf](https://github.com/user-attachments/files/19227676/SL.Immunization_Tracker.pdf)
 
