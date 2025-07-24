@@ -38,13 +38,13 @@ The dashboard leverages Big Data analytics to identify patterns and trends in re
 
 🔹Data File: (Only a sample dataset is provided for demonstration purposes) 
 
-## Note: # The full dataset is not included in this repository due to the sensitive nature of medical data. Only a sample dataset is provided for demonstration purposes.
+## Note: # The real dataset is not included in this repository due to the sensitive nature of medical data. Only dummy dataset is provided for demonstration purposes.
 
 ## 📷 Screenshots of Sample Datasets  
-**Figure 6: Epidemiology Unit and MOH Raw Data (2019 - 2024)**  
+**Figure 6: Epidemiology Unit and MOH Dummy Data (2019 - 2024)**  
 ![image](https://github.com/user-attachments/assets/eb134850-2418-4126-ac95-23ec5abe8270)
 
-**Figure 7: Primary Research Raw Data (Responses)**  
+**Figure 7: Primary Research Dummy Data (Responses)**  
 ![image](https://github.com/user-attachments/assets/0b98b5da-71d9-41af-8b5e-9cd4b8232c90)  
 
 2️⃣ Installing Power BI Desktop For Windows:
